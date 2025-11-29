@@ -14,18 +14,27 @@
 #     print(f"Część całkowita dzielenia: {a//b}")
 #     print(f"Reszta z dzielenia: {a%b}")
 
-a = 4
-b = 4
-if a == b:
-    print("równe")
-elif a > b:
-    print("a jest wieksze od b")
-elif a < b:
-    print("a jest mniejsze od b")
-elif a != b:
-    print("nie równe")
-else:
-    print("to nie zostanie nigdy wykonane")
+# a = 4
+# b = 4
+# if a == b:
+#     print("równe")
+# elif a > b:
+#     print("a jest wieksze od b")
+# elif a < b:
+#     print("a jest mniejsze od b")
+# elif a != b:
+#     print("nie równe")
+# else:
+#     print("to nie zostanie nigdy wykonane")
 
 # >=
 # <=
+
+
+ocena = 5
+
+if ocena == 5 or ocena == 4.5:
+    print("Doskonały wynik!")
+
+if ocena >= 4.5:
+    print("Doskonały wynik!!!")
