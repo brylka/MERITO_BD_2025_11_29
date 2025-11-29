@@ -4,11 +4,26 @@
 # print(len(lista))
 # print(lista[-23])
 
-imiona = []
+# imiona = []
+#
+# print("Podaj pięć imion:")
+# for _ in range(5):
+#     imie = input("Podaj imię: ")
+#     imiona.append(imie)
+#
+# print(imiona)
 
-print("Podaj pięć imion:")
-for _ in range(5):
-    imie = input("Podaj imię: ")
-    imiona.append(imie)
+imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
 
-print(imiona)
+print(f"Lista pierwotna: {imiona}")
+imiona.append("Sebastian")
+print(f"Lista z dodanym rekordem: {imiona}")
+imiona.insert(1, "Tadeusz")
+print(f"Lista z dodanym rekordem w konkretne miejsce: {imiona}")
+imiona.remove('Tomasz')
+print(f"Lista z usuniętym konkretnym rekordem: {imiona}")
+imiona.pop()
+print(f"Lista z usuniętym ostatnim rekordem: {imiona}")
+imiona.pop(1)
+print(f"Lista z usuniętym rekordem o indeksie nr 1: {imiona}")
+
