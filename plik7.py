@@ -29,5 +29,5 @@ def dodaj(a, b):
 # print(c)
 
 
-#if __name__ == '__main__':
-#tablizcka()
+if __name__ == '__main__':
+    tablizcka()
