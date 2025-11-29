@@ -15,15 +15,22 @@
 
 imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
 
-print(f"Lista pierwotna: {imiona}")
-imiona.append("Sebastian")
-print(f"Lista z dodanym rekordem: {imiona}")
-imiona.insert(1, "Tadeusz")
-print(f"Lista z dodanym rekordem w konkretne miejsce: {imiona}")
-imiona.remove('Tomasz')
-print(f"Lista z usuniętym konkretnym rekordem: {imiona}")
-imiona.pop()
-print(f"Lista z usuniętym ostatnim rekordem: {imiona}")
-imiona.pop(1)
-print(f"Lista z usuniętym rekordem o indeksie nr 1: {imiona}")
+# print(f"Lista pierwotna: {imiona}")
+# imiona.append("Sebastian")
+# print(f"Lista z dodanym rekordem: {imiona}")
+# imiona.insert(1, "Tadeusz")
+# print(f"Lista z dodanym rekordem w konkretne miejsce: {imiona}")
+# imiona.remove('Tomasz')
+# print(f"Lista z usuniętym konkretnym rekordem: {imiona}")
+# imiona.pop()
+# print(f"Lista z usuniętym ostatnim rekordem: {imiona}")
+# imiona.pop(1)
+# print(f"Lista z usuniętym rekordem o indeksie nr 1: {imiona}")
+
+for a in range(len(imiona)):
+    print(imiona[a])
+
+for imie in imiona:
+    print(imie)
+
 
