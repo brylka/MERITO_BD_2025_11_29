@@ -13,7 +13,7 @@
 #
 # print(imiona)
 
-imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
+# imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
 
 # print(f"Lista pierwotna: {imiona}")
 # imiona.append("Sebastian")
@@ -27,10 +27,13 @@ imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
 # imiona.pop(1)
 # print(f"Lista z usuniętym rekordem o indeksie nr 1: {imiona}")
 
-for a in range(len(imiona)):
-    print(imiona[a])
+# for a in range(len(imiona)):
+#     print(imiona[a])
+#
+# for imie in imiona:
+#     print(imie)
 
-for imie in imiona:
-    print(imie)
-
-
+imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
+print(f"Lista pierwotna: {imiona}")
+imiona[4] = "Robert"
+print(f"Lista zmieniona: {imiona}")
