@@ -33,7 +33,7 @@
 # for imie in imiona:
 #     print(imie)
 
-imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
-print(f"Lista pierwotna: {imiona}")
-imiona[4] = "Robert"
-print(f"Lista zmieniona: {imiona}")
+# imiona = ['Bartosz', 'Ala', 'Tomasz', 'Irena', 'Kazio']
+# print(f"Lista pierwotna: {imiona}")
+# imiona[4] = "Robert"
+# print(f"Lista zmieniona: {imiona}")
