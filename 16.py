@@ -1,5 +1,20 @@
-start = int(input("Podaj dzień startowy: "))
-max = int(input("Podaj ilość dni: "))
+from datetime import datetime
+
+rok = 2025
+miesiac = 2
+
+start = datetime(rok, miesiac, 1).weekday() + 1
+
+if miesiac in [1, 3, 5, 7, 8, 10, 12]:
+    max = 31
+elif miesiac in [4, 6, 9, 11]:
+    max = 30
+elif miesiac == 2:
+    if (rok % 4 == 0 and rok % 100 != 0) or rok % 400 == 0:
+        max = 29
+    else:
+        max = 28
+
 
 print("Pn\tWt\tŚr\tCz\tPt\t\033[33mSo\t\033[31mNd\033[0m")
 
