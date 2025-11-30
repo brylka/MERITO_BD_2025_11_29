@@ -21,7 +21,7 @@ for student in dane:
 
 srednia = suma/len(dane)
 
-print(f"Średnia wieku: {srednia:.1f}")
+print(f"Średnia wieku: {srednia:.2f}")
 
 
 #print(linie)
