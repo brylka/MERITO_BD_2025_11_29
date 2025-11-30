@@ -1,7 +1,7 @@
 from datetime import datetime
 
-rok = 2025
-miesiac = 2
+rok = int(input("Podaj rok: "))
+miesiac = int(input("Podaj miesiąc: "))
 
 start = datetime(rok, miesiac, 1).weekday() + 1
 
