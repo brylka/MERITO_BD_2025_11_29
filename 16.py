@@ -1,5 +1,5 @@
-start = 6
-max = 30
+start = int(input("Podaj dzień startowy: "))
+max = int(input("Podaj ilość dni: "))
 
 print("Pn\tWt\tŚr\tCz\tPt\t\033[33mSo\t\033[31mNd\033[0m")
 
